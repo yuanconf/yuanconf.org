@@ -8,6 +8,7 @@
 
 ## 安裝流程
 1. git clone git@github.com:yuanconf/yuanconf.org.git 
+2. cd yuanconf.org/
 2. git checkout source
 3. bundle install
 4. rake setup_github_pages
