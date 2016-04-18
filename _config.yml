@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://yuanconf.github.io/web
+title: 2016 第一屆元年會
+subtitle: 2016.10.29 中央研究院人文社會科學館 
+author: yuanconf 
 simple_search: https://www.google.com/search
 description:
 
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
