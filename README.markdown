@@ -10,11 +10,12 @@
 1. git clone git@github.com:yuanconf/yuanconf.org.git 
 2. cd yuanconf.org/
 2. git checkout source
-3. bundle install
-4. rake setup_github_pages
-5. cd _deploy
-6. git pull origin gh-pages
-7. cd ..
+3. gem install bundle
+4. bundle install
+5. rake setup_github_pages
+6. cd _deploy
+7. git pull origin gh-pages
+8. cd ..
 
 ## 指令小抄
 
