@@ -4,11 +4,10 @@
 
 url: http://yuanconf.github.io/yuanconf.org
 title: 2016 第一屆元年會
-subtitle: 2016.10.29 中央研究院人文社會科學館 
+subtitle: 傳統經典趣味與生活徵驗 
 author: yuanconf 
 simple_search: https://www.google.com/search
-description:
-
+description: 元年會期望以非教條式的方式，展現傳統經典的有趣與有用，藉此將對傳統中國經典有興趣的、來自各個領域、具備不同專長的人，由奉元社出發，凝聚為一包容各類領域的全國性學生社群。元年會並預期規劃、籌辦一系列活動，加深成員的凝聚力，培養、鍛鍊做實事的能力。政略：匯集臺灣對中國經典智慧有興趣的青年學子，從做實事中培養人才。戰略：發展成一個社群，並延續及擴展影響層面。戰場：以元年會為基礎與號召。戰術：徵文比賽與參賽者演講，打破傳統國學負面的刻板印象，展現經典的有趣與實用。武器：主題演講，展現另一種思維的產物，激發彼此的共鳴。
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
@@ -71,7 +70,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false 
 
 # Google +1
 google_plus_one: false
@@ -98,4 +97,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id: UA-76563923-1
 
 # Facebook Like
-facebook_like: false
+facebook_like: true 

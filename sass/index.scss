@@ -1,0 +1,59 @@
+@import "bootstrap-compass";
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+$usuki:#FAD689; //淺黃
+$namakabe:#7D6C46; //生壁
+$ginsyu:#C73E3A; //銀朱
+$fangsong:'cwTeXFangSong', serif; //仿宋
+
+
+body{
+  background-color:$usuki;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  background-image:url("/images/glass.png");
+}
+h1{
+  text-align:center;
+  font-size:100pt;
+  color:$namakabe;
+  font-family:$fangsong;
+}
+section{
+  height:100vh;
+  width:100vw;
+  left:0;
+  position:absolute;
+  &#first-viewport{
+    .title-block{
+      width:80%;
+      height:auto;
+      margin:15% auto 0 auto;
+      text-align:center;
+      .sub-title{
+        font-size:20pt;
+        font-family: $fangsong;
+        color:$namakabe;
+      }
+      h3{
+       color:$ginsyu; 
+       font-weight:bold;
+      }
+
+    }
+    .register_now{
+      height:20%;
+      margin:5% 0;
+      text-align:center;
+      span{
+        border:$namakabe solid 5px;
+        padding:5pt 10pt;
+        font-size:20pt;
+        color:white;
+        background:$namakabe;
+      }
+    }
+  }
+}
