@@ -41,19 +41,24 @@ section{
        color:$ginsyu; 
        font-weight:bold;
       }
-
-    }
-    .register_now{
-      height:20%;
-      margin:5% 0;
-      text-align:center;
-      span{
-        border:$namakabe solid 5px;
-        padding:5pt 10pt;
-        font-size:20pt;
-        color:white;
-        background:$namakabe;
+      
+      .register-now{
+        height:20%;
+        margin:5% 0;
+        text-align:center;
+        span{
+          border:$namakabe solid 5px;
+          padding:5pt 10pt;
+          background:$namakabe;
+          font-size:20pt;
+          a{
+            color:white;
+          }
+        }
       }
+
     }
   }
 }
+
+@import "index-mobile";

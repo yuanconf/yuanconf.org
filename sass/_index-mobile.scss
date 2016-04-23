@@ -1,0 +1,44 @@
+@media screen and (min-width: 1200px) {
+    // 如果使用者之視窗寬度 >= 1200px，將會再載入這裡的 CSS。
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    // 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。    
+}
+
+@media screen and (max-width: 767px) {
+  h1{
+    font-size:60px;
+  }
+	section#first-viewport .title-block{
+		.sub-title{
+			font-size:25px;
+		}
+    h3{
+      font-size:18px; 
+      margin-top:10px;
+    }
+		.register-now{
+      span{
+        padding:5px 10px;
+        font-size:20px;
+      }
+		}
+	}
+}
+
+@media screen and (max-device-width: 480px) {
+	h1{
+		font-size:45px;
+	}
+	section#first-viewport .title-block{
+		height:50%;
+		margin:55% auto 0 auto;
+		.sub-title{
+			font-size:20px;
+		}
+		.register-now{
+			margin:25% auto;
+		}
+	}
+}
