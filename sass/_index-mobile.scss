@@ -6,7 +6,9 @@
     // 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。    
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
+}
+@media screen and (max-width: 767px) and (orientation : landscape) {
   h1{
     font-size:60px;
   }
@@ -27,7 +29,7 @@
 	}
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) and (orientation : portrait ) {
 	h1{
 		font-size:45px;
 	}
