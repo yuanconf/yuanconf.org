@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yuanconf.github.io/yuanconf.org
+url: http://yuanconf.org/
 title: 2016 第一屆元年會
 subtitle: 傳統經典趣味與生活徵驗 
 author: yuanconf 
@@ -25,7 +25,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /yuanconf.org
+root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public/
