@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://yuanconf.github.io/yuanconf.org/sitemap.xml 
+Sitemap: http://yuanconf.org//sitemap.xml 
