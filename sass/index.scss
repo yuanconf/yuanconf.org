@@ -14,6 +14,10 @@ body{
   overflow-x:hidden;
   overflow-y:scroll;
   background-image:url("../images/glass.png");
+  a, a:hover, a:active{
+    text-decoration:none;
+    color:black;
+  }
 }
 h1{
   text-align:center;
@@ -21,17 +25,47 @@ h1{
   color:$namakabe;
   font-family:$fangsong;
 }
+
+nav{
+  position:absolute;
+  width:100vw;
+  min-height:100px;
+  text-align:center;
+  z-index:10;
+  background:rgb(255,255,255);
+  ul{
+    width:60%;
+    display:inline-flex;
+    justify-content:space-between;
+    padding:0;
+    margin:35px 0;
+    li{
+      list-style:none;
+      font-size:20px;
+      display:inline-block;
+      text-align:center;
+    }
+  }
+}
+
 section{
   height:100vh;
   width:100vw;
   left:0;
   position:absolute;
+  .index-section-content{
+    width:80%;
+    height:auto;
+    margin:15% auto 0 auto;
+    text-align:center;
+    .info{
+      width:60%;
+      text-align:justify;
+      margin:0 auto;
+    }
+  }
   &#first-viewport{
     .title-block{
-      width:80%;
-      height:auto;
-      margin:15% auto 0 auto;
-      text-align:center;
       .sub-title{
         font-size:20pt;
         font-family: $fangsong;
@@ -59,6 +93,14 @@ section{
 
     }
   }
+}
+
+footer{
+  position:absolute;
+  left:0;
+  text-align:center;
+  width:100vw;
+  min-height:10%;
 }
 
 @import "index-mobile";
