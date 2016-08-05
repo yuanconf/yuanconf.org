@@ -16,7 +16,7 @@
 6. git checkout _config.yml
 7. cd _deploy
 8. git fetch --all
-9. git reset --hard origin/master
+9. git reset --hard origin/gh-pages
 10. cd ..
 
 ## 指令小抄
