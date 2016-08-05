@@ -13,9 +13,11 @@
 3. gem install bundle
 4. bundle install
 5. rake setup_github_pages
-6. cd _deploy
-7. git pull origin gh-pages
-8. cd ..
+6. git checkout _config.yml
+7. cd _deploy
+8. git fetch --all
+9. git reset --hard origin/master
+10. cd ..
 
 ## 指令小抄
 
