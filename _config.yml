@@ -98,3 +98,7 @@ google_analytics_tracking_id: UA-76563923-1
 
 # Facebook Like
 facebook_like: true 
+
+# Facebook Insight / Open Graph
+facebook_app_id: 824527721017228
+facebook_page: https://www.facebook.com/YuanConf/
