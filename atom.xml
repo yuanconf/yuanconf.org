@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[2016 第一屆元年會]]></title>
+  <title><![CDATA[第一屆元年會]]></title>
   <link href="http://yuanconf.org//atom.xml" rel="self"/>
   <link href="http://yuanconf.org//"/>
-  <updated>2016-08-01T19:34:50+08:00</updated>
+  <updated>2016-08-10T13:17:58+08:00</updated>
   <id>http://yuanconf.org//</id>
   <author>
     <name><![CDATA[yuanconf]]></name>
