@@ -4,9 +4,7 @@ var place_section = function(){
   });  
   $("footer").css("top", $("section").size() * $("section").height() + "px");
   $("nav").css("top", ($(window).height() - $("nav").height()) + "px");
-}
-
-var fix_nav = function(){
+  $("footer").css("top", $(document).height()+"px");
 }
 
 
